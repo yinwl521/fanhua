@@ -1,0 +1,359 @@
+gulp压缩---
+http://developer.51cto.com/art/201505/477966.htm
+1.使用gulp，先安装配置nodejs
+2.打开命令行
+npm install gulp  -g  全局安装gulp
+npm install gulp --save-dev  cd进入要操作的项目下再安装一次
+然后gulp -v测试看看。有版本号证明成功
+3.npm init
+//- 生成一个 package.json，里面是一些常规的配置信息。
+然后安装gulp插件到本地目录
+4。在项目根目录下新建gulpfile.js
+前端构建工具gulpjs的使用介绍及技巧
+http://www.cnblogs.com/2050/p/4198792.html
+gulp入门教程
+http://markpop.github.io/2014/09/17/Gulp%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/
+------------------------------------------------------
+Node.js教程
+http://www.yiibai.com/nodejs/
+
+马赛超
+http://www.zhufengpeixun.cn/
+871936718@qq.com/18331973806
+
+git
+weilong521/yinwl521
+
+学node要经常关注的网站-------------------
+stackoverflow.com
+github.com搜索node
+www.npmjs.com
+nodejs.org
+
+http://www.cnblogs.com/duhuo/p/4217083.html  -----ide/node配置
+
+
+JS笔记----------
+把类数组A转为数组
+Array.ptototype.slice.call(A);
+
+----------------
+
+cmd一些命令-----
+需要了解两个命令  
+盘符:     例如想进入D盘   d:   
+cd         进入到当前盘某个目录。
+cd \  进入当前盘根目录
+cd \windows  进入到当前盘Windows目录
+cd..    退出到上一级目录
+npm install XXX   --------->安装XXX模块
+
+
+
+------------------------------------笔记------------------
+webpack   ----打包工具
+
+commonjs规范----
+1>一个node.js由大量模块组成，每个JS文件都是一个模块
+2>实现了require方法，npm基于commonjs实现了自动加载和安装依赖
+
+模块化的优点----
+1>增加内聚性，有助于分工协作
+2>方便重构
+3>提高代码质量
+
+模块使用----
+1>定义模块---一个方法fn
+2>导出模块----- exports.add = fn;
+3>使用模块
+
+ require----
+1>加载模块后会缓存，多次加载后得到同一对象require('http')
+2>查看模块缓存  console.log(require,cache);
+3>查询模块绝对路径 require.resolve('./test.js');
+4>查看单个的模块缓存
+require.cache[require.resolve('./test.js')]
+5>删除模块缓存delete
+require.cache[require.resolve('./test.js')]
+
+包和npm------------
+1>多个模块可以封装成一个包
+2>npm是node.js默认的模块管理器，用来安装和管理node模块 
+网址为  http://npmjs.org
+3>可以用包的方式通过npm安装，卸载，发布包
+
+组织和管理模块--------
+1>放置多个模块的文件夹称为包，可以通过包来对 一组具有相互依赖的有关系模块进行管理。初始化一个项目npm init
+{
+"name":"包的名称",
+"description":"包的简要说明",
+"version":"版本号",
+"keywords":"关键字",
+"licenses":"许可证",
+"repositories":"仓库地址",
+"dependencies":"包的依赖，一个关联数组，由包名称和版本组成"
+}
+
+发布全局项目
+1>创建并进入目录 mkdir zhangrenyang && cd zhangrenyang 
+2>初始化项目，npm init zhangrenyang
+3>编写命令行工具qpp.js
+console.log(‘I am zhangrenyang’);
+4>在package.json中添加“bin”:{"zhangrenyang":"./app.js"},
+5>注册用户 npm adduser  //name不能重复
+6>发布项目 npm publish
+7>安装自己的模块并执行命令 zhangrenyang
+
+
+cmd中  
+安装这个模块
+npm install zhangrenyang2 -g
+查看历史命令
+doskey /history
+查看当前本地仓库关联了哪些远程仓库
+git remote -v
+
+
+模块分类----
+
+内置模块--node本身自带的
+文件模块----手动安装的
+第三方模块
+
+-----------课时12----------buffer---------
+
+什么是字节  ---  
+1>字节（byte）是计算机存储时的一种计量单位，一个字节等于8位二进制数
+
+定义buffer------
+new Buffer(size)
+
+数组创建 new Buffer(array);
+
+字符串创建 new Buffer(str,[encoding]);
+ 
+
+---字符串和Buffer转换
+Buffer转字符串   Buffer.toString([encoding],[start],[end])
+
+字符串转Buffer   new Buffer(str,[encoding]);
+
+
+-------------Buffer常用方法
+
+合并Buffer   Buffer.concat([buf1,buf2],length);
+
+复制Buffer   Buffer.copy()
+
+------------http------------------------------------------
+---服务器------
+
+1>服务器可以是专业服务器也可以是个人电脑
+2>能在特定（IP）服务器的特定端口上监听客户端的请求，并根据请求的路径返回相应结果都叫服务器
+
+------客户端-----
+
+1>只要能向特定（IP）服务器的特定端口发起请求并接受响应的都叫客户端
+2>可以是mac iphone ipad apple等等
+
+------数据在服务器和客户端之间传递------
+
+1>可以把服务器硬盘上已经有的静态文件发送给客户端
+2>也可以由服务器经过逻辑处理生成的动态内容返回给客户端，比如当前时间
+3>一个http事务由一条（从客户端发往服务器的）请求命令和一个（从服务器发回客户端的）响应结果组成
+
+------------------------------------
+---请求---
+请求的方式
+1>GET   从服务器获取资源，比如请求一张空白d的注册表单
+2>POST  向服务器提交数据，比如提交注册表单
+
+--------promise------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

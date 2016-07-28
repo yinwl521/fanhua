@@ -1,0 +1,94 @@
+http://showcase.ngnice.com/#/input/radio    Angular.js范例
+http://my.oschina.net/foodon/blog/338698     angular 入门
+
+CSS content内容生成技术以及应用
+http://www.zhangxinxu.com/wordpress/2010/04/
+css-content%E5%86%85%E5%AE%B9%E7%94%9F%E6%88%90
+%E6%8A%80%E6%9C%AF%E4%BB%A5%E5%8F%8A%E5%BA%94%E7%94%A8/
+
+
+http://www.open-open.com/code/view/1429602156244     javascript汉字转拼音的方法
+
+OPEN经验库
+
+http://www.ruanyifeng.com/blog/2012/11/require_js.html    require.js的用法
+meta:vp        meta标签快捷键
+
+
+
+密钥：
+http://0.idea.lanyus.com/
+
+牛客网面试题
+http://www.nowcoder.com/ta/front-end-interview
+一个博客
+http://blog.csdn.net/kongjiea/article/details/46341575
+
+http://showcase.ngnice.com/#/input/radio    Angular.js范例
+
+微信公众平台开发者文档
+http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html 
+  	
+angularJS directive详解
+http://my.oschina.net/u/1992917/blog/406421 
+
+angularjs学习笔记—工具方法
+http://www.tuicool.com/articles/nUbUnqE
+
+angular  select详细用法/
+http://www.codeweblog.com/angularjs-select%E8%AF%A6%E7%BB%86%E7%94%A8%E6%B3%95/
+
+angular 1.3.9 英文文档
+http://docs.angularjs.cn/api
+
+我要自学网--PS免费教程
+http://www.51zxw.net/list.aspx?page=2&cid=19
+
+TortoiseSVN修改服务器地址的方法
+http://jingyan.baidu.com/article/ad310e80a83e891849f49e04.html
+
+珠峰node课程文档
+http://node.zhufengpeixun.cn/
+
+css3动画效果总结
+http://blog.csdn.net/sadfishsc/article/details/7165163/
+
+swiper移动端触摸滑动插件
+http://www.swiper.com.cn/
+
+base64----------在线加密解密
+http://tool.oschina.net/encrypt?type=4
+
+git文档博客------------
+http://blog.csdn.net/stormbjm/article/details/14455903
+
+ajax教材---
+https://github.com/YataoZhang/personal_project
+
+input file 上传文件
+http://blog.csdn.net/json1204/article/details/7323011
+
+CSDN--学习网站
+http://lib.csdn.net/
+
+星星评分
+http://www.17sucai.com/preview/217732/2016-04-20/startScore2/demo.html
+
+JS跨域问题
+http://note.youdao.com/share/?id=d4fd79b9bdeb3cb98133a2f443bbe081&type=note#/
+
+深入理解JS
+http://www.cnblogs.com/tomxu/archive/2011/12/15/2288411.html
+
+
+
+
+
+
+
+
+
+
+
+
+

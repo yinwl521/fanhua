@@ -1,0 +1,22 @@
+$(document).ready(function(){
+	//拖拽
+	var _move=false;//移动标记  
+	var _x,_y;//鼠标离控件左上角的相对位置  
+	    $("#drag").bind("click",function(){  
+	         //点击（松开后触发）  
+	        }).mousedown(function(e){  
+	        _move=true;  
+	        _x=e.pageX-parseInt($("#quizBox").css("left"));  
+	        _y=e.pageY-parseInt($("#quizBox").css("top"));  
+
+	    });  
+	    $(document).mousemove(function(e){  
+	        if(_move){  
+	            var x=e.pageX-_x;//移动时根据鼠标位置计算控件左上角的绝对位置  
+	            var y=e.pageY-_y;  
+	            $("#quizBox").css({top:y,left:x});//控件新位置  
+	        }  
+	    }).mouseup(function(){  
+	    _move=false;  
+	  });  
+});
