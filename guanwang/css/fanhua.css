@@ -1,14 +1,17 @@
-*{margin: 0;padding: 0;font-family: 微软雅黑;font-size: 12px;}
+*{margin: 0;padding: 0;font-family: Helvetica,"Microsoft Yahei","微软雅黑",Arial,sans-serif;font-size: 12px;}
 ul,li{list-style: none;}
 input{outline-style: none;}
 a{text-decoration: none;}
+img{border: 0;height: auto;max-width: 100%;}
 /*顶部*/
 .index-page{background: #eeeeee;}
 .top-nav{height: 42px;width: 100%;background: #ec3c33;}
 .top-nav .cont{margin: 0 auto;padding: 0;height: 42px;width: 1200px;}
 .t-right{text-align: right;}
 .search-box{padding-top: 9px}
+
 .f-left{float: left;}
+
 .search-box input{width: 162px;padding: 0 10px;height: 24px;border-radius: 20px;border: none;background-color: #ffffff;}
 .search-box button{background-color: #ffffff;border: none;margin-left: 10px;width: 44px;height: 22px;border-radius: 8px;text-align: center;line-height: 21px;}
 .top-nav .cont a{color: #ffffff;padding: 0 10px;line-height: 42px;font-size: 14px;}
@@ -18,8 +21,44 @@ a{text-decoration: none;}
 .carousel{position: relative;}
 .carousel-inner{height: 505px;width: 100%;overflow: hidden;background: green;}
 
+/*---*/
+.mainContainer{margin: 0 auto;margin-top: -105px;width:1200px;}
+.relative{position: relative;}
+.floor1{width: 100%;}
+.floor1 .lft{width:900px; float: left; }
+.floor1 .lft .blk{width:300px;height:94px;text-align: center;display:table-cell; line-height: 90px;border-right:4px solid #eee;border-bottom:4px solid #eee;}
+.floor1 .lft .blk img{ line-height: 94px; display: inline-block;vertical-align: middle;}
+.floor1 .lft .blk a{ display: block;}
+.floor1 .rft{width:300px; float: right;height: 188px;border-bottom: 4px solid #eeeeee;}
+.floor1 .rft dl{padding: 25px 25px 15px 15px;}
+.floor1 .rft dd{margin-left: 15px;line-height: 35px;color: #cb9300;}
+.floor1 .rft .btn-b{padding: 0 10px;}
+.floor1 .rft a.btn1{margin-right: 12px;display: inline-block;cursor: pointer;background-color: #ffc120;color: #ffffff;width: 107px;height: 39px;line-height: 39px;text-align: center;}
 
 
+.floor2{}
+.floor2 .title{height: 42px;line-height: 42px;padding: 0 15px 0 30px;}
+.floor2 .cont-box{overflow: hidden;}
+.floor2 .lft{width: 536px;float: left;}
+.floor2 .mid{width: 315px;float: left;}
+.floor2 .rgt{width: 346px;float: right;height: 184px;}
+.mar2{margin-bottom: 13px;}
+
+/*背景*/
+.bg1{background-color: #ffffff;}
+
+
+/*字体颜色*/
+.c1{color: #ae0009}
+
+
+
+.border-b{border-bottom: 1px solid #eeeeee}
+
+/*字体大小*/
+.f3{font-size: 16px;}
+
+.t-center{text-align: center;}
 
 
 
